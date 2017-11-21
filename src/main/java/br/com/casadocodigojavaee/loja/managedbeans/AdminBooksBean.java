@@ -16,6 +16,7 @@ public class AdminBooksBean {
 	@Transactional
 	public void save() {
 		bookDAO.save(product);
+//		System.out.println(product);
 	}
 
 	public Book getProduct() {
