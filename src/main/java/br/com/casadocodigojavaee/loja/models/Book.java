@@ -56,11 +56,9 @@ public class Book {
 	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
-	
+
 	public String toString() {
-		return "Title: " + this.title + "\n" +
-				"Description: " + this.description + "\n" +
-				"Number of page: " + this.numberOfPages + "\n" +
-				"Price: " + this.price;
+		return "Title: " + title + "\n" + "Description: " + description + "\n" + "Number of pages: " + numberOfPages
+				+ "\n" + "Price: " + price;
 	}
 }

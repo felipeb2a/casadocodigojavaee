@@ -3,6 +3,7 @@ package br.com.casadocodigojavaee.loja.daos;
 import javax.enterprise.context.Dependent;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+
 import br.com.casadocodigojavaee.loja.models.Book;
 
 @Dependent
@@ -13,4 +14,5 @@ public class BookDAO {
 	public void save(Book product) {
 		manager.persist(product);
 	}
+
 }
